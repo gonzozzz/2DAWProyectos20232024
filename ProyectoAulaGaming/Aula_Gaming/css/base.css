@@ -1,0 +1,58 @@
+body {
+    margin: 0 auto;
+    padding: 50px;
+    color: white;
+    background: black;
+    box-shadow: inset 0px 0px 50px 1px blue;
+    animation: gradient 30s infinite;
+    font-family: 'gaming';
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: 'gaming';
+    src: url("../fonts/BrunoAceSC-Regular.ttf");
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+@keyframes gradient {
+    0% {
+        box-shadow: inset 0px 0px 50px 1px blue;
+    }
+
+    50% {
+        box-shadow: inset 0px 0px 50px 1px red;
+    }
+
+    100% {
+        box-shadow: inset 0px 0px 50px 1px blue;
+    }
+}
+
+@media (max-width:500px) {
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+b {
+    font-size: 30px;
+}
+
+div > a > img{
+    opacity: 0;
+}

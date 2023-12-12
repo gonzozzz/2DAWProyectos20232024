@@ -1,0 +1,25 @@
+.checkeable input {
+  display: none;
+}
+
+.checkeable img {
+  width: 100px;
+  border: 5px solid transparent;
+}
+
+.checkeable input {
+  display: none;
+}
+
+.checkeable input:checked+img {
+  content: url("../img/pc-select.png");
+}
+
+@media only screen and (max-width: 700px) {
+  p2{
+    font-size: 12px;
+  }
+  p3{
+    font-size: 16px;
+  }
+}

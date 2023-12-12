@@ -1,0 +1,22 @@
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.particles-js-color-blue {
+    background-color: #007bff;
+}
+
+.particles-js-color-red {
+    background-color: #ff0000;
+}

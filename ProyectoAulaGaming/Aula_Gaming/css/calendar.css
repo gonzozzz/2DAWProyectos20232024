@@ -1,0 +1,119 @@
+/* BASE */
+
+body {
+    margin: 0 auto;
+    padding: 50px;
+    color: white;
+    background-color: black;
+    box-shadow: inset 0px 0px 50px 1px blue;
+    animation: gradient 30s infinite;
+    font-family: 'gaming';
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: 'gaming';
+    src: url("../fonts/BrunoAceSC-Regular.ttf");
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+@keyframes gradient {
+    0% {
+        box-shadow: inset 0px 0px 50px 1px blue;
+    }
+
+    50% {
+        box-shadow: inset 0px 0px 50px 1px red;
+    }
+
+    100% {
+        box-shadow: inset 0px 0px 50px 1px blue;
+    }
+}
+
+@media (max-width:500px) {
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+b {
+    font-size: 30px;
+}
+
+#letras{
+    font-size:25px;
+}
+
+/* ESTILO PEQUEÑO */
+
+@media (max-width:1050px) {
+    body{
+        font-size: 10px;
+        padding: 5px;
+    }
+    b{
+        font-size: 15px;
+    }
+    #letras{
+        font-size:10px;
+    }
+}
+
+/* ESTILO */
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(1, 1, 78);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-family: 'gaming';
+}
+
+@font-face {
+    font-family: 'gaming';
+    src: url("fonts/BrunoAceSC-Regular.ttf");
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: lightgreen;
+    transition: 0.6s;
+}
